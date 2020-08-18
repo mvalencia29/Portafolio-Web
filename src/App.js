@@ -1,7 +1,8 @@
 import React from "react";
+import { HomeView } from "./views";
 
 function App() {
-  return <div></div>;
+  return <HomeView />;
 }
 
 export default App;
