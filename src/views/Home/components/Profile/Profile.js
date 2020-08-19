@@ -4,9 +4,10 @@ import {
   ImageProfileContainer,
   ImageProfile,
   TextName,
-  TextCharge
+  TextCharge,
 } from "./Style";
 import profilePhoto from "./../../../../assets/images/profile_photo.jpg";
+import Accounts from "../../../../components/Accounts";
 
 const Profile = () => {
   return (
@@ -16,6 +17,7 @@ const Profile = () => {
       </ImageProfileContainer>
       <TextName>Miguel Valencia</TextName>
       <TextCharge>I'm a Developer</TextCharge>
+      <Accounts />
     </ProfileContainer>
   );
 };
